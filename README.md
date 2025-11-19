@@ -99,7 +99,6 @@ clinfo | grep "Device Name"
 # IPEX version
 python3 -c "import intel_extension_for_pytorch as ipex; print(ipex.__version__)"
 ```
-
 ## 🔗 Useful Resources
 
 - [Intel Extension for PyTorch Documentation](https://intel.github.io/intel-extension-for-pytorch/)
