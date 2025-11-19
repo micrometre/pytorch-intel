@@ -182,7 +182,7 @@ def main():
     
     if xpu_available and 'Intel XPU (IPEX)' in results:
         print(f"\n🎉 Intel GPU acceleration is working!")
-        print(f"   Your Iris Xe Graphics completed training in {results['Intel XPU (IPEX)']:.2f}s")
+        print(f"   the Iris Xe Graphics completed training in {results['Intel XPU (IPEX)']:.2f}s")
     elif xpu_available:
         print(f"\n⚠️ Intel GPU detected but benchmark failed")
         print("   Check drivers and IPEX installation")

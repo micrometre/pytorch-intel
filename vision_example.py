@@ -181,7 +181,7 @@ def main():
         
         if xpu_available and 'Intel XPU (IPEX)' in results:
             xpu_time = results['Intel XPU (IPEX)']
-            print(f"\n🎉 Your Intel Iris Xe Graphics achieved {xpu_time:.2f}ms per inference!")
+            print(f"\n🎉 the Intel Iris Xe Graphics achieved {xpu_time:.2f}ms per inference!")
             
             if 'CPU (IPEX)' in results:
                 cpu_time = results['CPU (IPEX)']

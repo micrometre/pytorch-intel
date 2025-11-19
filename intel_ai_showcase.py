@@ -283,13 +283,13 @@ def main():
             gpu_time = results['OpenVINO Intel GPU']
             cpu_time = results.get('OpenVINO CPU', pytorch_cpu_time)
             gpu_speedup = cpu_time / gpu_time
-            print(f"🚀 Your Intel Iris Xe Graphics provides {gpu_speedup:.1f}x speedup!")
+            print(f"🚀 the Intel Iris Xe Graphics provides {gpu_speedup:.1f}x speedup!")
             print(f"   GPU inference time: {gpu_time:.2f}ms per batch ({batch_size} samples)")
         
     else:
         print("❌ No successful benchmarks completed")
     
-    print(f"\n💡 Your Intel Iris Xe Graphics (96 EUs) Performance Summary:")
+    print(f"\n💡 the Intel Iris Xe Graphics (96 EUs) Performance Summary:")
     if 'OpenVINO Intel GPU' in results:
         gpu_time = results['OpenVINO Intel GPU']
         print(f"✅ GPU acceleration working: {gpu_time:.2f}ms per {batch_size}-sample batch")
@@ -299,7 +299,7 @@ def main():
         print("⚠️ GPU acceleration not available")
         print("   Try updating Intel GPU drivers and Level Zero runtime")
     
-    print(f"\n🎯 Recommended use cases for your Intel Iris Xe:")
+    print(f"\n🎯 Recommended use cases for the Intel Iris Xe:")
     print(f"   • Computer vision inference (image classification, object detection)")
     print(f"   • Small to medium neural network training")
     print(f"   • Edge AI applications")

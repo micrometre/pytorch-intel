@@ -32,7 +32,7 @@ This directory contains minimal examples for getting started with Intel Extensio
 
 ## 🎮 Intel Iris Xe Graphics Support
 
-Your Intel Raptor Lake-P [Iris Xe Graphics] with 96 EUs is supported by IPEX. Expected capabilities:
+Intel Raptor Lake-P [Iris Xe Graphics] with 96 EUs is supported by IPEX. Expected capabilities:
 
 - **Inference**: Excellent performance for computer vision models
 - **Training**: Good for smaller models and prototype development
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 ## 📊 Expected Performance
 
-For your Intel Iris Xe Graphics (96 EUs):
+For the Intel Iris Xe Graphics (96 EUs):
 
 - **ResNet18 Inference**: ~20-50ms per image
 - **Training**: 2-5x faster than CPU for appropriate batch sizes

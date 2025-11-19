@@ -104,7 +104,7 @@ def main():
     else:
         print("\n⚠️  Intel XPU not available. Make sure:")
         print("   1. Intel GPU drivers are installed")
-        print("   2. Intel Extension for PyTorch supports your GPU")
+        print("   2. Intel Extension for PyTorch supports the GPU")
         print("   3. Level Zero runtime is available")
     
     # Test CUDA if available
