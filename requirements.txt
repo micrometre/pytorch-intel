@@ -1,0 +1,10 @@
+# Intel Extension for PyTorch dependencies
+torch==2.8.0
+torchvision==0.23.0
+intel-extension-for-pytorch==2.8.0
+# OpenVINO for Intel GPU inference
+openvino
+# Other dependencies
+numpy
+pillow
+matplotlib
