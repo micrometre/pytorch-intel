@@ -10,7 +10,16 @@ This directory contains minimal examples for getting started with Intel Extensio
    ./setup.sh
    ```
 
-2. **Run Examples:**
+2. **Run the Hello World Notebook (Recommended for Beginners):**
+   ```bash
+   # Activate virtual environment
+   source .venv/bin/activate
+   
+   # Start Jupyter
+   jupyter notebook ipex_hello_world.ipynb
+   ```
+
+3. **Or Run Python Examples:**
    ```bash
    # Test device detection and basic operations
    python3 device_test.py
@@ -24,6 +33,8 @@ This directory contains minimal examples for getting started with Intel Extensio
 
 ## 📁 Files Description
 
+- **`ipex_hello_world.ipynb`** - Minimal hello-world notebook for IPEX (start here!)
+- **`IPEX_Getting_Started.ipynb`** - Advanced ResNet50 inference with oneDNN profiling
 - **`requirements.txt`** - Python dependencies
 - **`setup.sh`** - Automated setup script
 - **`device_test.py`** - Device detection and basic tensor operations

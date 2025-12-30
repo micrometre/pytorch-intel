@@ -8,3 +8,12 @@ openvino
 numpy
 pillow
 matplotlib
+
+# Optional: Jupyter for interactive notebooks
+Jupyter
+notebook
+ipykernel 
+
+
+# Optional: Additional utilities
+tensorboard
